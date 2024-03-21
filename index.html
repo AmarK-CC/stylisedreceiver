@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Styled Receiver</title>
+  <style>
+    body {
+      background-image: url('background.png'); /* Update with your background image */
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .logo {
+      height: 100px; /* Adjust as needed */
+      width: auto;
+      background-image: url('logo.jpeg'); /* Update with your logo image */
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  </style>
+  <script src="//www.gstatic.com/cast/sdk/libs/caf_receiver/v3/cast_receiver_framework.js"></script>
+  <script>
+    const context = cast.framework.CastReceiverContext.getInstance();
+    context.start();
+  </script>
+</head>
+<body>
+  <div class="logo"></div>
+</body>
+</html>
