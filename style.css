@@ -7,14 +7,9 @@
   }
   
   .progressBar {
-    background-color: rgb(238, 255, 65);
+    background-color: rgb(65, 255, 106);
   }
   
   .splash {
     background-image: url(logo.png);
-  }
-  
-  .watermark {
-    background-image: url(logo.png);
-    background-size: 57px 57px;
   }
