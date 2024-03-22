@@ -2,31 +2,7 @@
 <html>
 <head>
   <title>My Styled Receiver</title>
-  <style>
-    /* Ensures the body covers the full viewport and no repeat or scroll of the background image */
-    body {
-      margin: 0;
-      padding: 0;
-      background-image: url('background.png'); /* Update with your background image */
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    /* Styles for the logo to ensure it's centered and properly sized */
-    .logo {
-      height: 100px; /* Adjust based on your logo's desired display size */
-      width: auto; /* Maintains the aspect ratio of the logo */
-      background-image: url('logo.jpeg'); /* Update with your logo image */
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css"> <!-- Link to your external CSS file -->
   <script src="//www.gstatic.com/cast/sdk/libs/caf_receiver/v3/cast_receiver_framework.js"></script>
   <script>
     const context = cast.framework.CastReceiverContext.getInstance();
@@ -34,6 +10,6 @@
   </script>
 </head>
 <body>
-  <div class="logo"></div>
+  <div class="logo"></div> <!-- Logo will be displayed centered on the background -->
 </body>
 </html>
