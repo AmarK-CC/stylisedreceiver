@@ -1,10 +1,9 @@
-
 .background {
     background: center no-repeat url(background.png);
   }
   
   .logo {
-    background-image: url(logo.jpeg);
+    background-image: url(logo.png);
   }
   
   .progressBar {
@@ -12,10 +11,10 @@
   }
   
   .splash {
-    background-image: url(logo.jpeg);
+    background-image: url(logo.png);
   }
   
   .watermark {
-    background-image: url(logo.jpeg);
+    background-image: url(logo.png);
     background-size: 57px 57px;
   }
