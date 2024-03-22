@@ -1,12 +1,5 @@
-/* Styles for the full viewport background */
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-  }
   
-  body {
+  .background {
     background-image: url('background.png'); /* Ensure this path is correct */
     background-size: 1920px 1080px; /* Set to the size of your image for an exact fit */
     background-position: center center; /* Center the background image */
