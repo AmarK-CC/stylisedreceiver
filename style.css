@@ -1,21 +1,7 @@
-  
-  .background {
-    background-image: url('background.png'); /* Ensure this path is correct */
-    background-size: 1920px 1080px; /* Set to the size of your image for an exact fit */
-    background-position: center center; /* Center the background image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* Styles for the logo */
-  .logo {
-    height: 200px; /* Logo height */
-    width: 200px; /* Logo width */
-    background-image: url('logo.jpeg'); /* Ensure this path is correct */
-    background-size: contain; /* Make sure the logo fits within the dimensions */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-position: center; /* Center the logo image within the div */
-  }
-  
+.logo{
+    background-image: url(logo.jpeg);
+}
+
+.background{
+    background-image: url(background.png);
+}
